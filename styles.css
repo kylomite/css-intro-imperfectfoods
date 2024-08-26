@@ -6,3 +6,36 @@
 /* text color -> #453D3D */
 /* button color -> #B32274 */
 /* button text color -> white */
+* {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #b4e5e6;
+}
+
+
+button {
+    background-color: #B32274;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 45px;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+div, img, h2 {
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.button {
+    justify-content: center;
+    margin: 15px;
+}
